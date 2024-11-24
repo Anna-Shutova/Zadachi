@@ -1,11 +1,11 @@
-count = 0
+def count_numbers():
+    count = 0
+    for num in range(100, 10000):
+        if len(set(str(num))) == len(str(num)):
+            count += 1
+            # print(num)
+    return count
 
-for number in range(100, 10000):
-    digits = str(number)
 
-    if (digits[0] != digits[1]) != digits[2]) or \
-        (digits[0] != di)
-        count += 1
-        print(digits)
-
-print(count)
+result = count_numbers()
+print(f"Количество чисел: {result}")
