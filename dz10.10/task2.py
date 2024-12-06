@@ -5,4 +5,5 @@ def multiplication_table():
             print(f"{i} * {j} = {i * j}")
         print()
 
+
 multiplication_table()
